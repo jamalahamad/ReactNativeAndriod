@@ -12,6 +12,7 @@ import {
 } from 'react-native';
 
 import HomeScreen from './src/HomeScreen';
+import { Colors } from 'react-native/Libraries/NewAppScreen';
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
 
