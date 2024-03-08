@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "155779817890",
+    "project_id": "test-45f30",
+    "storage_bucket": "test-45f30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155779817890:android:be29a73e656de351f752fb",
+        "android_client_info": {
+          "package_name": "com.reactnativeandriod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155779817890-cennccoimukcjiaeusijambqm52q60in.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reactnativeandriod",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "155779817890-cpttbpc23gqi0hrqpuvndcoid1ngc3io.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaZPHYuHZ0BMVAFU_jfaYF6fXbImFAH98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155779817890-cpttbpc23gqi0hrqpuvndcoid1ngc3io.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
