@@ -10,10 +10,11 @@ import {
   SafeAreaView,
   useColorScheme,
 } from 'react-native';
-
-import HomeScreen from './src/HomeScreen';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
-function App() {
+import MyStack from './src/navigation/StackNavigator';
+
+
+const App = () =>  {
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
@@ -21,9 +22,7 @@ function App() {
   };
 
   return (
-    <SafeAreaView style={backgroundStyle}>
-     <HomeScreen></HomeScreen>
-    </SafeAreaView>
+       <MyStack/>
   );
 }
 
